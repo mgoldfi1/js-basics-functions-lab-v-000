@@ -13,5 +13,8 @@
   }
 
   function calculatesFarePrice(start,end) {
-    return (distanceTravelledInFeet(start,end) - 400)*.02
+    if (distanceTravelledInFeet(start,end) <= 400) {
+      return 0
+    } else {
+    return (distanceTravelledInFeet(start,end) - 400)*.02}
   }
