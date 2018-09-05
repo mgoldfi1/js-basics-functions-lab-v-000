@@ -7,3 +7,7 @@
     return Math.abs(street - 42)*264
 
   }
+
+  function distanceTravelledInFeet(x,y) {
+    return Math.abs(x-y)*264
+  }
