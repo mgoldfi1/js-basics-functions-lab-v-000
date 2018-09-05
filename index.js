@@ -1,4 +1,4 @@
 // Code your solution in this file!
   function distanceFromHqInBlocks(street) {
-    return street - 42
+    return Math.abs(street - 42)
   }
